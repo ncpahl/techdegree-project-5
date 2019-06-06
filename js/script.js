@@ -15,7 +15,7 @@ $('#search').keyup(function() {
     $('a').hide(); // hide images when typing
 
     $('.gallery a').each(function (index, value) { //select each anchor in gallery class
-      var $caption = $(this).attr('data-title'); //select caption text
+      var $caption = $(this).attr('data-title').toLowerCase(); //select caption text and make lowercase
       console.log($caption); // log caption text
       if ($caption.includes($value)) { // if caption includes search term
         $(this).show(); //show img with caption
