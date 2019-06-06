@@ -1,0 +1,68 @@
+.container {
+  padding-top: 50px;
+  max-width: 90%;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+.gallery {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.gallery img {
+  padding: 30px;
+  display: inline-block;
+}
+
+input {
+  border-radius: 5px;
+  padding: 10px;
+  width: 300px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border: solid #eee 2pt;
+}
+
+.lb-data .lb-caption {
+  font-family: sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 2em;
+}
+
+.lb-data .lb-details{
+  margin: 30px;
+}
+
+.lightboxOverlay {
+  background-color: #050607;
+}
+
+.lightbox .lb-image {
+    /* Image border */
+  border: none;
+  border-radius: 0;
+}
+
+.lb-close {
+  margin-top: 30px;
+}
+
+.lb-nav a.lb-prev, .lb-nav a.lb-next {
+  opacity: 1;
+}
+
+
+
+/* Media Queries */
+
+
+@media (min-width: 1000px) {
+
+  .container {
+    max-width: 1200px;
+  }
+
+}
